@@ -1,4 +1,9 @@
 package com.hendramaulana.lionparceltestcases.ui
 
-class NewsViewModel {
+import androidx.lifecycle.ViewModel
+import com.hendramaulana.lionparceltestcases.repository.NewsRepository
+
+class NewsViewModel(
+    val newsRepository : NewsRepository
+) : ViewModel(){
 }
