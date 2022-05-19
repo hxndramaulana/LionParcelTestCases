@@ -1,6 +1,14 @@
-package com.hendramaulana.lionparceltestcases
+package com.hendramaulana.lionparceltestcases.models
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(
+    tableName = "tb_article"
+)
 data class Article(
+    @PrimaryKey(autoGenerate = true)
+    var id : Int? = null,
     val author: String,
     val content: String,
     val description: String,

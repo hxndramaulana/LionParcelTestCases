@@ -1,6 +1,6 @@
 package com.hendramaulana.lionparceltestcases.api
 
-import com.hendramaulana.lionparceltestcases.NewsResponse
+import com.hendramaulana.lionparceltestcases.models.NewsResponse
 import com.hendramaulana.lionparceltestcases.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

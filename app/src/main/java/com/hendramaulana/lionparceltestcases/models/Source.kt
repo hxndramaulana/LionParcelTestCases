@@ -1,4 +1,4 @@
-package com.hendramaulana.lionparceltestcases
+package com.hendramaulana.lionparceltestcases.models
 
 data class Source(
     val id: Any,
